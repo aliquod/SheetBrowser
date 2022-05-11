@@ -1,0 +1,398 @@
+{
+  "Prelims - Michaelmas": {
+    "Introduction to University Mathematics": {
+      "1": {
+        "sheet1 - Introduction to University Mathematics.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/410/mod_assign/introattachment/0/sheet1%20-%20Introduction%20to%20University%20Mathematics.pdf"
+      },
+      "2": {
+        "sheet2 - Introduction to University Mathematics.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/411/mod_assign/introattachment/0/sheet2%20-%20Introduction%20to%20University%20Mathematics.pdf"
+      }
+    },
+    "Introduction to Complex Numbers": {
+      "1": {
+        "ICN-Sheet 1.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/400/mod_assign/introattachment/0/ICN-Sheet%201.pdf",
+        "ICN-Solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/400/mod_assign/introattachment/0/ICN-Solutions.pdf"
+      }
+    },
+    "M1: Linear Algebra I": {
+      "1": {
+        "Sheet 1.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/420/mod_assign/introattachment/0/Sheet%201.pdf",
+        "Sheet1_pudding_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/420/mod_assign/introattachment/0/Sheet1_pudding_solutions.pdf",
+        "Sheet1_starter_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/420/mod_assign/introattachment/0/Sheet1_starter_solutions.pdf"
+      },
+      "2": {
+        "Sheet2_pudding_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/20337/mod_assign/introattachment/0/Sheet2_pudding_solutions.pdf",
+        "Sheet2_starter_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/20337/mod_assign/introattachment/0/Sheet2_starter_solutions.pdf",
+        "Sheet2.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/20337/mod_assign/introattachment/0/Sheet2.pdf"
+      },
+      "3": {
+        "Sheet3_pudding_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/20808/mod_assign/introattachment/0/Sheet3_pudding_solutions.pdf",
+        "Sheet3_starter_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/20808/mod_assign/introattachment/0/Sheet3_starter_solutions.pdf",
+        "Sheet3.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/20808/mod_assign/introattachment/0/Sheet3.pdf"
+      },
+      "4": {
+        "Sheet4_pudding_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21153/mod_assign/introattachment/0/Sheet4_pudding_solutions.pdf",
+        "Sheet4_starter_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21153/mod_assign/introattachment/0/Sheet4_starter_solutions.pdf",
+        "Sheet4.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21153/mod_assign/introattachment/0/Sheet4.pdf"
+      },
+      "5": {
+        "Sheet5_pudding_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21421/mod_assign/introattachment/0/Sheet5_pudding_solutions.pdf",
+        "Sheet5_starter_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21421/mod_assign/introattachment/0/Sheet5_starter_solutions.pdf",
+        "Sheet5.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21421/mod_assign/introattachment/0/Sheet5.pdf"
+      },
+      "6": {
+        "Sheet6_pudding_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21544/mod_assign/introattachment/0/Sheet6_pudding_solutions.pdf",
+        "Sheet6_starter_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21544/mod_assign/introattachment/0/Sheet6_starter_solutions.pdf",
+        "Sheet6.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21544/mod_assign/introattachment/0/Sheet6.pdf"
+      },
+      "7": {
+        "Sheet7_pudding_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21545/mod_assign/introattachment/0/Sheet7_pudding_solutions.pdf",
+        "Sheet7_starter_solutions.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21545/mod_assign/introattachment/0/Sheet7_starter_solutions.pdf",
+        "Sheet7.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21545/mod_assign/introattachment/0/Sheet7.pdf"
+      }
+    },
+    "M2: Analysis I - Sequences and Series": {
+      "1": {
+        "AnalysisI_Sheet1.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/430/mod_assign/introattachment/0/AnalysisI_Sheet1.pdf"
+      },
+      "2": {
+        "AnalysisI_Sheet2.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/431/mod_assign/introattachment/0/AnalysisI_Sheet2.pdf"
+      },
+      "3": {
+        "AnalysisI_Sheet3.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/432/mod_assign/introattachment/0/AnalysisI_Sheet3.pdf"
+      },
+      "4": {
+        "AnalysisI_Sheet4.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/433/mod_assign/introattachment/0/AnalysisI_Sheet4.pdf"
+      },
+      "5": {
+        "AnalysisI_Sheet5.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/8323/mod_assign/introattachment/0/AnalysisI_Sheet5.pdf"
+      },
+      "6": {
+        "AnalysisI_Sheet6.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/8322/mod_assign/introattachment/0/AnalysisI_Sheet6.pdf"
+      },
+      "7": {
+        "AnalysisI_Sheet7.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/8321/mod_assign/introattachment/0/AnalysisI_Sheet7.pdf"
+      }
+    },
+    "M3: Introductory Calculus": {
+      "1": {
+        "Prelims-Calculus-Sheet-1.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/440/mod_assign/introattachment/0/Prelims-Calculus-Sheet-1.pdf"
+      },
+      "2": {
+        "Prelims-Calculus-Sheet-2.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/441/mod_assign/introattachment/0/Prelims-Calculus-Sheet-2.pdf"
+      },
+      "3": {
+        "Prelims-Calculus-Sheet-3.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/442/mod_assign/introattachment/0/Prelims-Calculus-Sheet-3.pdf"
+      },
+      "4": {
+        "Prelims-Calculus-Sheet-4.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/443/mod_assign/introattachment/0/Prelims-Calculus-Sheet-4.pdf"
+      },
+      "5": {
+        "Prelims-Calculus-Sheet-5.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/11351/mod_assign/introattachment/0/Prelims-Calculus-Sheet-5.pdf"
+      },
+      "6": {
+        "Prelims-Calculus-Sheet-6.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/11352/mod_assign/introattachment/0/Prelims-Calculus-Sheet-6.pdf"
+      },
+      "7": {
+        "Prelims-Calculus-Sheet-7.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/11371/mod_assign/introattachment/0/Prelims-Calculus-Sheet-7.pdf"
+      },
+      "8": {
+        "Prelims-Calculus-Sheet-8.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/11372/mod_assign/introattachment/0/Prelims-Calculus-Sheet-8.pdf"
+      }
+    },
+    "M3: Probability": {
+      "1": {
+        "Sheet1-2021.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/16286/mod_resource/content/3/Sheet1-2021.pdf"
+      },
+      "2": {
+        "Sheet2-2021.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/16296/mod_resource/content/1/Sheet2-2021.pdf"
+      },
+      "3": {
+        "Sheet3-2021.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/16297/mod_resource/content/1/Sheet3-2021.pdf"
+      },
+      "4": {
+        "Sheet4-2021.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/16298/mod_resource/content/1/Sheet4-2021.pdf"
+      },
+      "5": {
+        "Sheet5-2021.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/16299/mod_resource/content/1/Sheet5-2021.pdf"
+      },
+      "6": {
+        "Sheet6-2021.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/16300/mod_resource/content/2/Sheet6-2021.pdf"
+      },
+      "7": {
+        "Sheet7-2021.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/16301/mod_resource/content/2/Sheet7-2021.pdf"
+      },
+      "8": {
+        "Sheet8-2021.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/16302/mod_resource/content/3/Sheet8-2021.pdf"
+      }
+    },
+    "M4: Geometry": {
+      "1": {
+        "Sheet 1.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/460/mod_assign/introattachment/0/Sheet%201.pdf"
+      },
+      "2": {
+        "Sheet 2.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/461/mod_assign/introattachment/0/Sheet%202.pdf"
+      },
+      "3": {
+        "Sheet 3.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/462/mod_assign/introattachment/0/Sheet%203.pdf"
+      },
+      "4": {
+        "Sheet 4.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/463/mod_assign/introattachment/0/Sheet%204.pdf"
+      },
+      "5": {
+        "Sheet 5.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/20569/mod_assign/introattachment/0/Sheet%205.pdf"
+      },
+      "6": {
+        "sheet 6.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/20570/mod_assign/introattachment/0/sheet%206.pdf"
+      },
+      "7": {
+        "Sheet 7.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21553/mod_assign/introattachment/0/Sheet%207.pdf"
+      }
+    }
+  },
+  "Prelims - Hilary": {
+    "M1: Linear Algebra II": {
+      "1": {
+        "2022sheet1.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/480/mod_assign/introattachment/0/2022sheet1.pdf"
+      },
+      "2": {
+        "2022sheet2.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/481/mod_assign/introattachment/0/2022sheet2.pdf"
+      },
+      "3": {
+        "2022sheet3.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/482/mod_assign/introattachment/0/2022sheet3.pdf"
+      },
+      "4": {
+        "2022sheet4.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/483/mod_assign/introattachment/0/2022sheet4.pdf"
+      }
+    },
+    "M1: Groups and Group Actions": {
+      "1": {
+        "Sheet1-01.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/470/mod_assign/introattachment/0/Sheet1-01.pdf"
+      },
+      "2": {
+        "Sheet2-01.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/471/mod_assign/introattachment/0/Sheet2-01.pdf"
+      },
+      "3": {
+        "Sheet3-01.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/472/mod_assign/introattachment/0/Sheet3-01.pdf"
+      },
+      "4": {
+        "Sheet4-01.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/473/mod_assign/introattachment/0/Sheet4-01.pdf"
+      },
+      "5": {
+        "Sheet5.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24319/mod_assign/introattachment/0/Sheet5.pdf"
+      },
+      "6": {
+        "Sheet6.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24320/mod_assign/introattachment/0/Sheet6.pdf"
+      },
+      "7": {
+        "Sheet7.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24321/mod_assign/introattachment/0/Sheet7.pdf"
+      },
+      "8": {
+        "Sheet8.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24322/mod_assign/introattachment/0/Sheet8.pdf"
+      }
+    },
+    "M2: Analysis II - Continuity and Differentiability": {
+      "1": {
+        "Analysis II Sheet 1.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/490/mod_assign/introattachment/0/Analysis%20II%20Sheet%201.pdf"
+      },
+      "2": {
+        "Analysis II Sheet 2.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/491/mod_assign/introattachment/0/Analysis%20II%20Sheet%202.pdf"
+      },
+      "3": {
+        "Analysis II Sheet 3.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/492/mod_assign/introattachment/0/Analysis%20II%20Sheet%203.pdf"
+      },
+      "4": {
+        "Analysis II Sheet 4.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/493/mod_assign/introattachment/0/Analysis%20II%20Sheet%204.pdf"
+      },
+      "5": {
+        "Analysis II Sheet 5.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21953/mod_assign/introattachment/0/Analysis%20II%20Sheet%205.pdf"
+      },
+      "6": {
+        "Problem Sheet 6.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21954/mod_assign/introattachment/0/Problem%20Sheet%206.pdf"
+      },
+      "7": {
+        "Analysis II Sheet 7.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21955/mod_assign/introattachment/0/Analysis%20II%20Sheet%207.pdf"
+      },
+      "8": {
+        "Analysis II Sheet 8.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21956/mod_assign/introattachment/0/Analysis%20II%20Sheet%208.pdf"
+      }
+    },
+    "M4: Dynamics": {
+      "1": {
+        "Dynamicsproblems1.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/22582/mod_resource/content/1/Dynamicsproblems1.pdf"
+      },
+      "2": {
+        "Dynamicsproblems2.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/22584/mod_resource/content/1/Dynamicsproblems2.pdf"
+      },
+      "3": {
+        "Dynamicsproblems3.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/22585/mod_resource/content/1/Dynamicsproblems3.pdf"
+      },
+      "4": {
+        "Dynamicsproblems4.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/22586/mod_resource/content/1/Dynamicsproblems4.pdf"
+      },
+      "5": {
+        "Dynamicsproblems5.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/22587/mod_resource/content/1/Dynamicsproblems5.pdf"
+      },
+      "6": {
+        "Dynamicsproblems6.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/22588/mod_resource/content/1/Dynamicsproblems6.pdf"
+      },
+      "7": {
+        "Dynamicsproblems7.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/22589/mod_resource/content/1/Dynamicsproblems7.pdf"
+      },
+      "8": {
+        "Dynamicsproblems8.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/22590/mod_resource/content/3/Dynamicsproblems8.pdf"
+      }
+    },
+    "M5: Fourier Series and PDEs": {
+      "1": {
+        "FS-PDE-Problem-Sheet-1.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/510/mod_assign/introattachment/0/FS-PDE-Problem-Sheet-1.pdf"
+      },
+      "2": {
+        "FS-PDE-Problem-Sheet-2.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/511/mod_assign/introattachment/0/FS-PDE-Problem-Sheet-2.pdf"
+      },
+      "3": {
+        "FS-PDE-Problem-Sheet-3.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/512/mod_assign/introattachment/0/FS-PDE-Problem-Sheet-3.pdf"
+      },
+      "4": {
+        "FS-PDE-Problem-Sheet-4.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/513/mod_assign/introattachment/0/FS-PDE-Problem-Sheet-4.pdf"
+      },
+      "5": {
+        "FS-PDE-Problem-Sheet-5.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/22108/mod_assign/introattachment/0/FS-PDE-Problem-Sheet-5.pdf"
+      },
+      "6": {
+        "FS-PDE-Problem-Sheet-6.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/22109/mod_assign/introattachment/0/FS-PDE-Problem-Sheet-6.pdf"
+      },
+      "7": {
+        "FS-PDE-Problem-Sheet-7.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/22110/mod_assign/introattachment/0/FS-PDE-Problem-Sheet-7.pdf"
+      },
+      "8": {
+        "FS-PDE-Problem-Sheet-8.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/22111/mod_assign/introattachment/0/FS-PDE-Problem-Sheet-8.pdf"
+      }
+    },
+    "M5: Multivariable Calculus": {
+      "1": {
+        "Sheet1.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/521/mod_assign/introattachment/0/Sheet1.pdf"
+      },
+      "2": {
+        "Sheet2.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21927/mod_assign/introattachment/0/Sheet2.pdf"
+      },
+      "3": {
+        "Sheet3.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/522/mod_assign/introattachment/0/Sheet3.pdf"
+      },
+      "4": {
+        "Sheet4.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/523/mod_assign/introattachment/0/Sheet4.pdf"
+      },
+      "5": {
+        "Sheet5.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21922/mod_assign/introattachment/0/Sheet5.pdf"
+      },
+      "6": {
+        "Sheet6.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21925/mod_assign/introattachment/0/Sheet6.pdf"
+      },
+      "7": {
+        "Sheet7.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21924/mod_assign/introattachment/0/Sheet7.pdf"
+      },
+      "8": {
+        "Sheet8.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/21923/mod_assign/introattachment/0/Sheet8.pdf"
+      }
+    },
+    "Computational Mathematics": {
+      "1": {
+        "p1.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/390/mod_assign/introattachment/0/p1.pdf",
+        "truncation_error.m": "https://courses.maths.ox.ac.uk/pluginfile.php/390/mod_assign/introattachment/0/truncation_error.m"
+      },
+      "2": {
+        "p2.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/391/mod_assign/introattachment/0/p2.pdf"
+      },
+      "3": {
+        "ode_example.m": "https://courses.maths.ox.ac.uk/pluginfile.php/392/mod_assign/introattachment/0/ode_example.m",
+        "ode_template.m": "https://courses.maths.ox.ac.uk/pluginfile.php/392/mod_assign/introattachment/0/ode_template.m",
+        "p3.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/392/mod_assign/introattachment/0/p3.pdf"
+      },
+      "4": {
+        "p4.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/393/mod_assign/introattachment/0/p4.pdf"
+      }
+    }
+  },
+  "Prelims - Trinity": {
+    "M1: Groups and Group Actions": {
+      "1": {
+        "Sheet1-01.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/470/mod_assign/introattachment/0/Sheet1-01.pdf"
+      },
+      "2": {
+        "Sheet2-01.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/471/mod_assign/introattachment/0/Sheet2-01.pdf"
+      },
+      "3": {
+        "Sheet3-01.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/472/mod_assign/introattachment/0/Sheet3-01.pdf"
+      },
+      "4": {
+        "Sheet4-01.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/473/mod_assign/introattachment/0/Sheet4-01.pdf"
+      },
+      "5": {
+        "Sheet5.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24319/mod_assign/introattachment/0/Sheet5.pdf"
+      },
+      "6": {
+        "Sheet6.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24320/mod_assign/introattachment/0/Sheet6.pdf"
+      },
+      "7": {
+        "Sheet7.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24321/mod_assign/introattachment/0/Sheet7.pdf"
+      },
+      "8": {
+        "Sheet8.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24322/mod_assign/introattachment/0/Sheet8.pdf"
+      }
+    },
+    "M2: Analysis III - Integration": {
+      "1": {
+        "Analysis3Sheet1TT2022.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/550/mod_assign/introattachment/0/Analysis3Sheet1TT2022.pdf"
+      },
+      "2": {
+        "Analysis3Sheet2TT2022.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/551/mod_assign/introattachment/0/Analysis3Sheet2TT2022.pdf"
+      },
+      "3": {
+        "Analysis3-Sheet3-TT2022.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/552/mod_assign/introattachment/0/Analysis3-Sheet3-TT2022.pdf"
+      },
+      "4": {
+        "Analysis3Sheet4TT2022.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/553/mod_assign/introattachment/0/Analysis3Sheet4TT2022.pdf"
+      }
+    },
+    "M3: Statistics and Data Analysis": {
+      "1": {
+        "sheet1 - 2022.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24377/mod_assign/introattachment/0/sheet1%20-%202022.pdf"
+      },
+      "2": {
+        "sheet2 - 2022.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24378/mod_assign/introattachment/0/sheet2%20-%202022.pdf"
+      },
+      "3": {
+        "sheet3 - 2022.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24379/mod_assign/introattachment/0/sheet3%20-%202022.pdf"
+      },
+      "4": {
+        "sheet4 - 2022.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/543/mod_assign/introattachment/0/sheet4%20-%202022.pdf"
+      },
+      "5": {
+        "sheet5 - 2022.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24380/mod_assign/introattachment/0/sheet5%20-%202022.pdf"
+      },
+      "6": {
+        "sheet6-clean.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24512/mod_assign/introattachment/0/sheet6-clean.pdf"
+      },
+      "7": {
+        "sheet7.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24515/mod_assign/introattachment/0/sheet7.pdf"
+      },
+      "8": {
+        "sheet8.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/24516/mod_assign/introattachment/0/sheet8.pdf"
+      }
+    },
+    "M4: Constructive Mathematics": {
+      "1": {
+        "cm_sheet1.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/530/mod_assign/introattachment/0/cm_sheet1.pdf"
+      },
+      "2": {
+        "cm_sheet2.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/531/mod_assign/introattachment/0/cm_sheet2.pdf"
+      },
+      "3": {
+        "cm_sheet3.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/532/mod_assign/introattachment/0/cm_sheet3.pdf"
+      },
+      "4": {
+        "cm_sheet4.pdf": "https://courses.maths.ox.ac.uk/pluginfile.php/533/mod_assign/introattachment/0/cm_sheet4.pdf"
+      }
+    }
+  }
+}
