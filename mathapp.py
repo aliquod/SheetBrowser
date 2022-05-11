@@ -6,11 +6,6 @@ import tkinter as tk
 from tkinter import ttk, filedialog
 import webbrowser
 
-root = Tk()
-root.title('Worksheet Browser')
-root.geometry('400x300')
-root.grid_columnconfigure(0, weight=1)
-root.grid_columnconfigure(1, weight=2)
 
 
 class nestedSelector():
@@ -125,55 +120,56 @@ class respondingDictionary():
             webbrowser.open(str(url))
 
 
-with open('sheet_links.json', 'r') as file:
-    data = json.load(file)
-print(json.dumps(data, sort_keys=True, indent=4))
-
-# structure of [data]:
-# [term=Prelims - Michaelmas]:              # first level: (name of term):(dict of courses in term)
-#   [class=1]:                                  # second level: (course):(dict of sheets in course)
-#       [sheet id=1]:                               # third level: (sheet number):(dict of files in the sheet)
-#           [filename=a]: link                          # fourth level: (file name):(link to file)
-#           [filename=b]: link
-#       [sheet id=2]:
-#           [...]: ...
-#   [class=2]:
-#      [...]
-# [term=...]:
-#    [...]
-
-# instructions
-inst1 = Label(root, text='Choose the worksheet, and open with double click,')
-inst1.grid(row=0,column=0,columnspan=3)
-inst2 = Label(root, text='or select multiple files and press ENTER to open all.')
-inst2.grid(row=1,column=0,columnspan=3)
-
-# dropdown menu for selecting the term
-years = ['Prelims'] # 'Part A', 'Part B', 'Part C']
-terms = ['Michaelmas', 'Hilary', 'Trinity']
-term_options = [year + ' - ' + term for year in years for term in terms]
-term_selector = nestedSelector(options=term_options, default=2, disabled=False, row=2, column=1)  # default is the Trinity
-term_label = Label(root, text='Year')
-term_label.grid(row=2,column=0)
-
-course_updator = lambda term: list(data[term].keys())
-course_selector = nestedSelector(default='Select Course', disabled=False, updator=course_updator, row=3, column=1)
-term_selector.add_child(course_selector)
-course_label = Label(root, text='Course')
-course_label.grid(row=3, column=0)
-
-# sheet_options = data[course_selector.value].keys()
-sheet_updator = lambda course: ['Sheet ' + key for key in data[term_selector.value][course].keys()]
-sheet_selector = nestedSelector(default='Select Sheet', disabled=True, row=4, column=1, updator=sheet_updator)
-course_selector.add_child(sheet_selector)
-sheet_label = Label(root, text='Sheet')
-sheet_label.grid(row=4, column=0)
+def main():
+    root = Tk()
+    root.title('Worksheet Browser')
+    root.geometry('400x300')
+    root.grid_columnconfigure(0, weight=1)
+    root.grid_columnconfigure(1, weight=2)
 
 
-link_updator = lambda sheet: data[term_selector.value][course_selector.value][sheet.split(' ')[-1]]
-print(data['Prelims - Michaelmas']['M3: Probability']['2'])
-link_display = respondingDictionary(columns=('File','Link'),widths=[200,100], updator=link_updator,
-                                    row=5, column=0, columnspan=2, sticky='we')
-sheet_selector.add_child(link_display)
+    # read in the json file
+    with open('sheet_links.json', 'r') as file:
+        data = json.load(file)
+    print(json.dumps(data, sort_keys=True, indent=4))
 
-root.mainloop()
+    # instructions
+    inst1 = Label(root, text='Choose the worksheet, and open with double click,')
+    inst1.grid(row=0,column=0,columnspan=3)
+    inst2 = Label(root, text='or select multiple files and press ENTER to open all.')
+    inst2.grid(row=1,column=0,columnspan=3)
+
+    # dropdown menu for selecting the term
+    years = ['Prelims'] # 'Part A', 'Part B', 'Part C']
+    terms = ['Michaelmas', 'Hilary', 'Trinity']
+    term_options = [year + ' - ' + term for year in years for term in terms]
+    term_selector = nestedSelector(options=term_options, default=2, disabled=False, row=2, column=1)  # default is the Trinity
+    term_label = Label(root, text='Year')
+    term_label.grid(row=2,column=0)
+
+    # dropdown menu for selecting the course
+    course_updator = lambda term: list(data[term].keys())
+    course_selector = nestedSelector(default='Select Course', disabled=False, updator=course_updator, row=3, column=1)
+    term_selector.add_child(course_selector)
+    course_label = Label(root, text='Course')
+    course_label.grid(row=3, column=0)
+
+    # dropdown menu for selecting the sheet
+    sheet_updator = lambda course: ['Sheet ' + key for key in data[term_selector.value][course].keys()]
+    sheet_selector = nestedSelector(default='Select Sheet', disabled=True, row=4, column=1, updator=sheet_updator)
+    course_selector.add_child(sheet_selector)
+    sheet_label = Label(root, text='Sheet')
+    sheet_label.grid(row=4, column=0)
+
+
+    link_updator = lambda sheet: data[term_selector.value][course_selector.value][sheet.split(' ')[-1]]
+    print(data['Prelims - Michaelmas']['M3: Probability']['2'])
+    link_display = respondingDictionary(columns=('File','Link'),widths=[200,100], updator=link_updator,
+                                        row=5, column=0, columnspan=2, sticky='we')
+    sheet_selector.add_child(link_display)
+
+    root.mainloop()
+
+
+if __name__ == '__main__':
+    main()
