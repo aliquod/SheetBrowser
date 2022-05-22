@@ -119,19 +119,19 @@ class respondingDictionary():
             url = self.table.item(selection, 'values')[1]
             webbrowser.open(str(url))
 
+root = Tk()
 
 def main():
-    root = Tk()
+
     root.title('Worksheet Browser')
     root.geometry('400x300')
     root.grid_columnconfigure(0, weight=1)
     root.grid_columnconfigure(1, weight=2)
 
-
     # read in the json file
     with open('sheet_links.json', 'r') as file:
         data = json.load(file)
-    print(json.dumps(data, sort_keys=True, indent=4))
+    # print(json.dumps(data, sort_keys=True, indent=4))
 
     # instructions
     inst1 = Label(root, text='Choose the worksheet, and open with double click,')
