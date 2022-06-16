@@ -37,6 +37,7 @@ class nestedSelector():
         self.selector['values'] = options
         self.selector.configure(state="disabled" if disabled else 'readonly')  # readonly = typing not allowed
         self.selector.grid(*args, **kwargs)
+        print(self.default)
 
     def demand_child(self,*args):  # asks the child to do stuff
         if self.child is not None:
@@ -54,11 +55,12 @@ class nestedSelector():
         if self.updator is not None:
             try:
                 self.selector['values'] = tuple()
-                default = [self.default] if self.default is not None else []
-                new_options = default + self.updator(instruction)
+                new_options = self.updator(instruction)
+                if self.default is not None and self.default not in new_options:
+                    new_options = [self.default] + new_options
                 self.selector['values'] = new_options
-                if self.default is not None:
-                    self.selector.set(new_options[self.default])
+                if self.default:
+                    self.selector.set(self.default)
                 else: self.selector.set(new_options[0])
             except: pass
 
@@ -105,7 +107,7 @@ class respondingDictionary():
         try:
             new_data = self.updator(instruction)  # get the new entries from the updator function
             self.table.delete(*self.table.get_children())  # delete all entries
-            for id,key in enumerate(list(new_data.keys())):
+            for key in list(new_data.keys()):
                 self.table.insert(parent='', index='end', text='', values=(key, new_data[key]))
         except: pass
 
@@ -155,14 +157,19 @@ def main():
     course_label.grid(row=3, column=0)
 
     # dropdown menu for selecting the sheet
-    sheet_updator = lambda course: ['Sheet ' + key for key in data[term_selector.value][course].keys()]
-    sheet_selector = nestedSelector(default='Select Sheet', disabled=True, row=4, column=1, updator=sheet_updator)
+    sheet_updator = lambda course: ['All Sheets']+['Sheet ' + key for key in data[term_selector.value][course].keys()]
+    sheet_selector = nestedSelector(default='All Sheets', disabled=True, row=4, column=1, updator=sheet_updator)
     course_selector.add_child(sheet_selector)
     sheet_label = Label(root, text='Sheet')
     sheet_label.grid(row=4, column=0)
 
-
-    link_updator = lambda sheet: data[term_selector.value][course_selector.value][sheet.split(' ')[-1]]
+    def link_updator(sheet):
+        if sheet == 'All Sheets':
+            raw_keys = data[term_selector.value][course_selector.value].keys()
+            values = [data[term_selector.value][course_selector.value][key.split(' ')[-1]] for key in raw_keys]
+            val = {k:v for dic in values for (k,v) in tuple(dic.items())}
+            return val
+        return data[term_selector.value][course_selector.value][sheet.split(' ')[-1]]
     print(data['Prelims - Michaelmas']['M3: Probability']['2'])
     link_display = respondingDictionary(columns=('File','Link'),widths=[200,100], updator=link_updator,
                                         row=5, column=0, columnspan=2, sticky='we')
